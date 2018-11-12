@@ -1,0 +1,27 @@
+{
+  "name": "Punch_Clock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cuckoo-org/Punch_Clock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cuckoo-org/Punch_Clock/issues"
+  },
+  "homepage": "https://github.com/Cuckoo-org/Punch_Clock#readme",
+  "dependencies": {
+    "react": "last",
+    "rxjs": "^6.3.3"
+  }
+}
