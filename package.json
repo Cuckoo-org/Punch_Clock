@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/Cuckoo-org/Punch_Clock#readme",
   "dependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "bluebird": "^3.5.3",
     "react": "last",
     "rxjs": "^6.3.3"
   }
