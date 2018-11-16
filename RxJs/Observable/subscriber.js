@@ -6,7 +6,7 @@ const subscriber = {
         console.log('complete!')
     },
     error: function(error) {
-        console.log(error)
+        console.log('Throw Error:' + error)
     }
 };
 
