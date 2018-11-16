@@ -56,3 +56,18 @@ Observable 可以被订阅（subscribe），或者可以被观察，而订阅Obs
 * next: 每当 Observable 发送新的值，next方法就会被调用
 * complete: 在Observable没有其他的资料可以取得时，complete方法就会被调用，在complete执行之后，next方法就不会再起作用
 * error: 每当Observable内发生错误时，error方法就会被调用
+
+## Creation Operator （创建 运算符）
+
+`Observable` 有许多创建实例的方法，称为 `creation operator`。下面我们列出 RxJS 常用的 `creation operator`。
+* create
+* of
+* from
+* fromEvent
+* fromPromise
+* never
+* empty
+* throw
+* interval
+* timer
+
