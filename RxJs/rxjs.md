@@ -70,4 +70,3 @@ Observable 可以被订阅（subscribe），或者可以被观察，而订阅Obs
 * throw
 * interval
 * timer
-

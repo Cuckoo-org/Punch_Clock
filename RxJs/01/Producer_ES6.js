@@ -6,6 +6,7 @@ export default class Producer {
 
     addListener(listener) {
         if(typeof listener === 'function') {
+            console.log('addListener')
             this.listeners.push(listener);
         } else {
             throw new Error('listener is must be a function')
@@ -13,6 +14,7 @@ export default class Producer {
     }
 
     removeListener(listener) {
+        console.log('removeListener')
         this.listeners.splice(this.listeners.indexOf(listener),1)
     }
 
